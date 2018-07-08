@@ -1,9 +1,9 @@
 
 # Verifying a Merkle Root
 
-### Exercise
+### Try it
 
-#### 8.1. Verify a Merkle Proof
+#### Verify a Merkle Proof
 Transaction Hash:
 ```
 e8270fb475763bc8d855cfe45ed98060988c1bdcad2ffc8364f783c98999a208
