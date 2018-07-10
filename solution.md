@@ -29,8 +29,6 @@ Merkle Proof:
 
 
 ```python
-# Exercise 8.1
-
 from block import Proof
 from helper import double_sha256, merkle_root, merkle_path, merkle_parent
 
@@ -68,6 +66,7 @@ print(current[::-1] == merkle_root)
 
 ```python
 from io import BytesIO
+from helper import double_sha256, merkle_root, merkle_path, merkle_parent
 from block import Block, Proof
 
 class Proof(Proof):
